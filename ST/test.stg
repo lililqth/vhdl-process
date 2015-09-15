@@ -1,0 +1,8 @@
+IF_STATEMENT(condition, sequence_of_statements1, sequence_of_statements2) ::=<<
+"IF <condition> THEN
+    <sequence_of_statements1>
+ELSE
+    <sequence_of_statements2>
+END IF;
+    <sequence_of_statements3>"
+>>
